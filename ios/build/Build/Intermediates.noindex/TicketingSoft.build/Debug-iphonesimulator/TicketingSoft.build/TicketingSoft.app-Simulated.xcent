@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>QHA5TQ48D5.org.reactjs.native.example.TicketingSoft</string>
+	<string>QHA5TQ48D5.org.reactjs.native.example.TicketingSoft1</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>QHA5TQ48D5.org.reactjs.native.example.TicketingSoft</string>
+		<string>QHA5TQ48D5.org.reactjs.native.example.TicketingSoft1</string>
 	</array>
 </dict>
 </plist>

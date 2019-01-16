@@ -1,15 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from [:react-native-config] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-config/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-vector-icons] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-immersive] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-immersive/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-gesture-handler] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-camera] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-18:12
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/apple/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/8983c07108608c690df7f010b85d56fa/AndroidManifest.xml:2:1-15:12
+ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-28:12
+MERGED from [:react-native-splash-screen] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-splash-screen/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:react-native-config] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-config/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-immersive] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-immersive/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-camera] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-18:12
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/apple/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/8c377287490d7633cbef22b8b523ba61/AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/8271e787104ff1d2822dc2d86c3b8ccc/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/073e866b5a99da4aff698b7fcd54e53d/AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:exifinterface:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/014b79b99ca6540521995f23bc97d9a2/AndroidManifest.xml:17:1-22:12
@@ -33,199 +34,207 @@ MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/apple/.gradle/caches/trans
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/0ca6bce81ddd4218084275a9099ec96c/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/82db875c74b6b554aabb7834daec11b7/AndroidManifest.xml:1:1-4:12
 MERGED from [org.webkit:android-jsc:r174650] /Users/apple/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/f08e3d2d58ef63c208b9db25e7c29d1e/AndroidManifest.xml:1:1-3:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/604968018881b88a3da7f386c941ad1c/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/730d0b609480946c111a22ae96337a96/AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/1c202764001c1e82692c0857fb75cc1e/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/3361851a00f883d31afe8d9264e0cc7d/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/55de322fe5fc6e534f0777403d0259b7/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/44efc70ce18b91738f0a873d0620c2ad/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/604968018881b88a3da7f386c941ad1c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/730d0b609480946c111a22ae96337a96/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1826d87214fe12da4571f947978e18dc/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9818422cc397425eead7afd38fa8401b/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-28:12
 	package
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:2:5-32
-		INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:2:5-32
+		INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-28:12
+		INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-28:12
+		INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/apple/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/8983c07108608c690df7f010b85d56fa/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/apple/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/8983c07108608c690df7f010b85d56fa/AndroidManifest.xml:11:5-78
+ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/apple/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/8c377287490d7633cbef22b8b523ba61/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/apple/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/8c377287490d7633cbef22b8b523ba61/AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:5:22-75
-application
-ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:7:5-24:19
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/apple/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/8983c07108608c690df7f010b85d56fa/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/apple/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/8983c07108608c690df7f010b85d56fa/AndroidManifest.xml:13:5-20
-MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/073e866b5a99da4aff698b7fcd54e53d/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/073e866b5a99da4aff698b7fcd54e53d/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/c403df7d53a0eddc281cbb2d9f8a0447/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/c403df7d53a0eddc281cbb2d9f8a0447/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-15.0.1.aar/2b26dec54df306ee5ce22d74e1e8e6c9/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-15.0.1.aar/2b26dec54df306ee5ce22d74e1e8e6c9/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/bebdd5b9094c0c3aa42b06d984ca4267/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/bebdd5b9094c0c3aa42b06d984ca4267/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5a0c59c9b90b786607fee27f04f0524a/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5a0c59c9b90b786607fee27f04f0524a/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/4ee51d8bc69a2f038aeaa191a83eee96/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/4ee51d8bc69a2f038aeaa191a83eee96/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f00aaf66e005e7ba25bf7e232c2df818/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f00aaf66e005e7ba25bf7e232c2df818/AndroidManifest.xml:22:5-26:19
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/82db875c74b6b554aabb7834daec11b7/AndroidManifest.xml:3:3-17
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/82db875c74b6b554aabb7834daec11b7/AndroidManifest.xml:3:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/apple/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/f08e3d2d58ef63c208b9db25e7c29d1e/AndroidManifest.xml:2:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/apple/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/f08e3d2d58ef63c208b9db25e7c29d1e/AndroidManifest.xml:2:3-17
-	android:label
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:9:7-39
-	android:icon
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:10:7-41
-	android:allowBackup
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:11:7-34
-	android:theme
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:12:7-38
-	android:name
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:8:7-38
-activity#com.ticketingsoft.MainActivity
-ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:13:7-22:18
-	android:label
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:15:9-41
-	android:windowSoftInputMode
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:17:9-51
-	android:configChanges
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:16:9-79
-	android:name
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:14:9-37
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:18:9-21:25
-action#android.intent.action.MAIN
-ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:19:13-65
-	android:name
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:19:21-62
-category#android.intent.category.LAUNCHER
-ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:20:13-73
-	android:name
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:20:23-70
-activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:23:7-84
-	android:name
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:23:17-81
-uses-sdk
-INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-config] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-config/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-config] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-config/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-immersive] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-immersive/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-immersive] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-immersive/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-camera] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-camera] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/apple/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/8983c07108608c690df7f010b85d56fa/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/apple/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/8983c07108608c690df7f010b85d56fa/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/8271e787104ff1d2822dc2d86c3b8ccc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/8271e787104ff1d2822dc2d86c3b8ccc/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/073e866b5a99da4aff698b7fcd54e53d/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/073e866b5a99da4aff698b7fcd54e53d/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:exifinterface:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/014b79b99ca6540521995f23bc97d9a2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:exifinterface:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/014b79b99ca6540521995f23bc97d9a2/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/c403df7d53a0eddc281cbb2d9f8a0447/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/c403df7d53a0eddc281cbb2d9f8a0447/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-15.0.1.aar/2b26dec54df306ee5ce22d74e1e8e6c9/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-15.0.1.aar/2b26dec54df306ee5ce22d74e1e8e6c9/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/24da447e76dbe87fd60b58f6c4f0968a/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/24da447e76dbe87fd60b58f6c4f0968a/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/bebdd5b9094c0c3aa42b06d984ca4267/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/bebdd5b9094c0c3aa42b06d984ca4267/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5a0c59c9b90b786607fee27f04f0524a/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5a0c59c9b90b786607fee27f04f0524a/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/4ee51d8bc69a2f038aeaa191a83eee96/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/4ee51d8bc69a2f038aeaa191a83eee96/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f00aaf66e005e7ba25bf7e232c2df818/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f00aaf66e005e7ba25bf7e232c2df818/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/4a014ad22eae82f31fa22e1275f71adc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/4a014ad22eae82f31fa22e1275f71adc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/c8d7353869817a278dd7fc17fba24c5b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/c8d7353869817a278dd7fc17fba24c5b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/46fde208260eabfe14b5a3cac61c3c13/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/46fde208260eabfe14b5a3cac61c3c13/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/71529316b69cbab619674b5672161bfe/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/71529316b69cbab619674b5672161bfe/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/1a51197c64d7f1b18b3fd3afce65a8f5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/1a51197c64d7f1b18b3fd3afce65a8f5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/7aada4348d9385f120687063068b0edd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/7aada4348d9385f120687063068b0edd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/11345df1f2d0bd6b9ebbeb6641ea9c99/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/11345df1f2d0bd6b9ebbeb6641ea9c99/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2ecb5babb175264abb27427814476e93/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2ecb5babb175264abb27427814476e93/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/873939ba77444b5de2251b26cdafbd22/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/873939ba77444b5de2251b26cdafbd22/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/46a4be53337fcf87d6ca33a49979eb79/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/46a4be53337fcf87d6ca33a49979eb79/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/0ca6bce81ddd4218084275a9099ec96c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/0ca6bce81ddd4218084275a9099ec96c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/82db875c74b6b554aabb7834daec11b7/AndroidManifest.xml:2:3-70
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/82db875c74b6b554aabb7834daec11b7/AndroidManifest.xml:2:3-70
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/604968018881b88a3da7f386c941ad1c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/604968018881b88a3da7f386c941ad1c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/730d0b609480946c111a22ae96337a96/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/730d0b609480946c111a22ae96337a96/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/1c202764001c1e82692c0857fb75cc1e/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/1c202764001c1e82692c0857fb75cc1e/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/3361851a00f883d31afe8d9264e0cc7d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/3361851a00f883d31afe8d9264e0cc7d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/55de322fe5fc6e534f0777403d0259b7/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/55de322fe5fc6e534f0777403d0259b7/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/44efc70ce18b91738f0a873d0620c2ad/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/44efc70ce18b91738f0a873d0620c2ad/AndroidManifest.xml:5:5-7:41
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1826d87214fe12da4571f947978e18dc/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1826d87214fe12da4571f947978e18dc/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9818422cc397425eead7afd38fa8401b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9818422cc397425eead7afd38fa8401b/AndroidManifest.xml:20:5-44
-INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml
-	android:targetSdkVersion
-		INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml
-uses-permission#android.permission.CAMERA
-ADDED from [:react-native-camera] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-65
-	android:name
-		ADDED from [:react-native-camera] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:22-62
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:5:22-75
 uses-feature#android.hardware.camera
-ADDED from [:react-native-camera] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-13:36
+ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:6:5-85
+MERGED from [:react-native-camera] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-13:36
+MERGED from [:react-native-camera] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-13:36
 	android:required
-		ADDED from [:react-native-camera] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:9-33
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:6:58-82
 	android:name
-		ADDED from [:react-native-camera] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-47
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:6:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from [:react-native-camera] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-16:36
+ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:7:5-95
+MERGED from [:react-native-camera] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-16:36
+MERGED from [:react-native-camera] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-16:36
 	android:required
-		ADDED from [:react-native-camera] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:9-33
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:7:68-92
 	android:name
-		ADDED from [:react-native-camera] /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-57
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:7:19-67
+application
+ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:9:5-26:19
+MERGED from [:react-native-splash-screen] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-splash-screen/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-splash-screen] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-splash-screen/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/apple/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/8c377287490d7633cbef22b8b523ba61/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/apple/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/8c377287490d7633cbef22b8b523ba61/AndroidManifest.xml:13:5-20
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/073e866b5a99da4aff698b7fcd54e53d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/073e866b5a99da4aff698b7fcd54e53d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/c403df7d53a0eddc281cbb2d9f8a0447/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/c403df7d53a0eddc281cbb2d9f8a0447/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-15.0.1.aar/2b26dec54df306ee5ce22d74e1e8e6c9/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-15.0.1.aar/2b26dec54df306ee5ce22d74e1e8e6c9/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/bebdd5b9094c0c3aa42b06d984ca4267/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/bebdd5b9094c0c3aa42b06d984ca4267/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5a0c59c9b90b786607fee27f04f0524a/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5a0c59c9b90b786607fee27f04f0524a/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/4ee51d8bc69a2f038aeaa191a83eee96/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/4ee51d8bc69a2f038aeaa191a83eee96/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f00aaf66e005e7ba25bf7e232c2df818/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f00aaf66e005e7ba25bf7e232c2df818/AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/82db875c74b6b554aabb7834daec11b7/AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/82db875c74b6b554aabb7834daec11b7/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/apple/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/f08e3d2d58ef63c208b9db25e7c29d1e/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/apple/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/f08e3d2d58ef63c208b9db25e7c29d1e/AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:11:7-39
+	android:icon
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:12:7-51
+	android:allowBackup
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:13:7-34
+	android:theme
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:14:7-38
+	android:name
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:10:7-38
+activity#com.ticketingsoft.MainActivity
+ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:15:7-24:18
+	android:label
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:17:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:19:9-51
+	android:configChanges
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:18:9-79
+	android:name
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:16:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:20:9-23:25
+action#android.intent.action.MAIN
+ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:21:13-65
+	android:name
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:21:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:22:13-73
+	android:name
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:22:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:25:7-84
+	android:name
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:25:17-81
+uses-sdk
+INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-splash-screen] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-splash-screen/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-splash-screen/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-config] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-config/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-config] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-config/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-immersive] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-immersive/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-immersive] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-immersive/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-camera] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-camera] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/apple/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/8c377287490d7633cbef22b8b523ba61/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/apple/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/8c377287490d7633cbef22b8b523ba61/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/8271e787104ff1d2822dc2d86c3b8ccc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/8271e787104ff1d2822dc2d86c3b8ccc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/073e866b5a99da4aff698b7fcd54e53d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/073e866b5a99da4aff698b7fcd54e53d/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/014b79b99ca6540521995f23bc97d9a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/014b79b99ca6540521995f23bc97d9a2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/c403df7d53a0eddc281cbb2d9f8a0447/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/c403df7d53a0eddc281cbb2d9f8a0447/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-15.0.1.aar/2b26dec54df306ee5ce22d74e1e8e6c9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-15.0.1.aar/2b26dec54df306ee5ce22d74e1e8e6c9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/24da447e76dbe87fd60b58f6c4f0968a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/24da447e76dbe87fd60b58f6c4f0968a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/bebdd5b9094c0c3aa42b06d984ca4267/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/bebdd5b9094c0c3aa42b06d984ca4267/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5a0c59c9b90b786607fee27f04f0524a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5a0c59c9b90b786607fee27f04f0524a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/4ee51d8bc69a2f038aeaa191a83eee96/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/4ee51d8bc69a2f038aeaa191a83eee96/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f00aaf66e005e7ba25bf7e232c2df818/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f00aaf66e005e7ba25bf7e232c2df818/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/4a014ad22eae82f31fa22e1275f71adc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/4a014ad22eae82f31fa22e1275f71adc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/c8d7353869817a278dd7fc17fba24c5b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/c8d7353869817a278dd7fc17fba24c5b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/46fde208260eabfe14b5a3cac61c3c13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/46fde208260eabfe14b5a3cac61c3c13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/71529316b69cbab619674b5672161bfe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/71529316b69cbab619674b5672161bfe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/1a51197c64d7f1b18b3fd3afce65a8f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/1a51197c64d7f1b18b3fd3afce65a8f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/7aada4348d9385f120687063068b0edd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/7aada4348d9385f120687063068b0edd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/11345df1f2d0bd6b9ebbeb6641ea9c99/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/11345df1f2d0bd6b9ebbeb6641ea9c99/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2ecb5babb175264abb27427814476e93/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2ecb5babb175264abb27427814476e93/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/873939ba77444b5de2251b26cdafbd22/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/873939ba77444b5de2251b26cdafbd22/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/46a4be53337fcf87d6ca33a49979eb79/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/46a4be53337fcf87d6ca33a49979eb79/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/0ca6bce81ddd4218084275a9099ec96c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/0ca6bce81ddd4218084275a9099ec96c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/82db875c74b6b554aabb7834daec11b7/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/82db875c74b6b554aabb7834daec11b7/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/1c202764001c1e82692c0857fb75cc1e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/1c202764001c1e82692c0857fb75cc1e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/3361851a00f883d31afe8d9264e0cc7d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/3361851a00f883d31afe8d9264e0cc7d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/55de322fe5fc6e534f0777403d0259b7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/55de322fe5fc6e534f0777403d0259b7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/44efc70ce18b91738f0a873d0620c2ad/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/44efc70ce18b91738f0a873d0620c2ad/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/604968018881b88a3da7f386c941ad1c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/604968018881b88a3da7f386c941ad1c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/730d0b609480946c111a22ae96337a96/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/730d0b609480946c111a22ae96337a96/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1826d87214fe12da4571f947978e18dc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1826d87214fe12da4571f947978e18dc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9818422cc397425eead7afd38fa8401b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/apple/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9818422cc397425eead7afd38fa8401b/AndroidManifest.xml:20:5-44
+INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from [:react-native-camera] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from [:react-native-camera] /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:22-62
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5a0c59c9b90b786607fee27f04f0524a/AndroidManifest.xml:23:9-26:75
 	android:exported
@@ -241,8 +250,8 @@ ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/apple/.
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f00aaf66e005e7ba25bf7e232c2df818/AndroidManifest.xml:24:13-58
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-28:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-28:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/src/main/AndroidManifest.xml:1:1-28:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

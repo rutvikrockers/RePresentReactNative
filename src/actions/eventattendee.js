@@ -17,8 +17,8 @@ export function fetchAttendeeEventList(UserId,event_id){
         },function(err,res){
       if(err || res.success === false){ 
         var e = res.success.message;
-        return dispatch(error(e))
-      };
+        return dispatch(error(e));
+      }
       return dispatch(updateAttendeeList(res));
     })
   }

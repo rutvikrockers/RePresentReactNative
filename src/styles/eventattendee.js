@@ -26,6 +26,7 @@ import {
       padding: 0,
       width: '100%'
     },
+   
     containerDark: {
       backgroundColor: colors.dark.background,
     },
@@ -76,7 +77,8 @@ import {
       borderStyle: 'solid',
     },
     avatar: {
-      paddingLeft: 10,
+      paddingLeft: 20,
+      marginTop: 10,
     },
     bgImage: {
       flex: 1,
@@ -208,7 +210,7 @@ import {
       width: 200,
     },
     toolbar: {
-      backgroundColor: '#629c12',
+      backgroundColor: colors.purpleTheme,
       height: 50,
       alignSelf: 'stretch',
     }, 
@@ -224,6 +226,20 @@ import {
      
       backgroundColor: '#FFF',
       borderBottomColor: 'black',
+      borderLeftColor : colors.highlight,
+      borderLeftWidth : 7,
+      borderBottomWidth: 1,
+      justifyContent: 'center',
+      height: 70,
+      width: '100%',
+      flex: 1,
+    },
+    rowUncheckFront: {
+     
+      backgroundColor: '#FFF',
+      borderBottomColor: 'black',
+      borderLeftColor : 'rgba(0,0,0,0)',
+      borderLeftWidth : 7,
       borderBottomWidth: 1,
       justifyContent: 'center',
       height: 70,
@@ -254,9 +270,10 @@ import {
       paddingRight:10,
     },
     backRightBtnLeft: {
-      backgroundColor: 'red',
+      backgroundColor: '#FF0000',
       right: 0,
       alignItems: 'center',
+      flexDirection: 'row',
 		bottom: 0,
 		justifyContent: 'center',
 		position: 'absolute',
@@ -264,10 +281,14 @@ import {
 		width: 75
     },
     emailTitle: {
-      color: '#000',
+      color: '#535353',
       width: 200,
-      fontWeight: 'bold',
-      paddingBottom:5,
+      fontSize: 12
+    },
+    ticketstyle:{
+      color: '#535353',
+      width: 200,
+      paddingBottom:10,
       fontSize: 12
     },
     checkinstyle: {
@@ -280,11 +301,41 @@ import {
       fontWeight: 'bold',
     },
     backBtn: {
-      backgroundColor:'#629c12'
+      backgroundColor:colors.purpleTheme
     },
-    spinnerTextStyle: {
-      color: '#FFF'
+    // spinnerTextStyle: {
+    //   color: '#FFF'
+    // },
+    bottomView:{
+ 
+      width: '100%', 
+      height: 40, 
+      backgroundColor: colors.purpleTheme, 
+      justifyContent: 'center', 
+      alignItems: 'center',
+      position: 'absolute',
+      bottom: 0
     },
+    textStylen:{
+   
+      color: '#fff',
+      fontSize:22
+    },
+    MainContainer :{
+ 
+      justifyContent: 'center',
+      flex:1,
+      margin: 10
+       
+      },
+      scannerbutton:{
+        width: '100%', 
+        height: 40, 
+        backgroundColor: colors.statusBar, 
+        justifyContent: 'center', 
+        alignItems: 'center',
+      
+      },
   });
   
   module.exports = styles;

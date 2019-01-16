@@ -1,23 +1,23 @@
 dependencies: \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/Modules/RCTDevSettings.mm \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/Modules/RCTDevSettings.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/Base/RCTBridge.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/Base/RCTBridgeModule.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/Base/RCTFrameUpdate.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/Base/RCTInvalidating.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/Base/RCTBridge+Private.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/Base/RCTEventDispatcher.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/Base/RCTLog.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/Base/RCTUtils.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/Profiler/RCTProfile.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/node_modules/react-native/React/Inspector/RCTInspectorPackagerConnection.h
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/node_modules/react-native/React/Inspector/RCTInspectorPackagerConnection.h

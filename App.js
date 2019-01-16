@@ -1,156 +1,269 @@
-import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, BackHandler,Alert, View,StatusBar,FlatList, ActivityIndicator,AsyncStorage,TouchableHighlight,ToolbarAndroid} from 'react-native';
-import { StackNavigator } from 'react-navigation';
-import {connect} from 'react-redux';
-import { Container, Header, Left, Body, Right, Button, Title, Icon } from 'native-base';
-import PTRView from 'react-native-pull-to-refresh';
-import Dimensions from 'Dimensions';
-import Spinner from 'react-native-loading-spinner-overlay';
-import {Link, Redirect} from 'react-router-native';
-import {fetchEvents} from './src/actions/feed';
-const {width, height} = Dimensions.get('window');
-import styles from './src/styles/event';
-//  import Icon from 'react-native-vector-icons/dist/Ionicons';
-import {fetchListEvents} from './src/actions/eventdetails';
-import {destroySession} from './src/actions';
-import Moment from 'moment';
+import React, { Component } from "react";
+import {
+  Platform,
+  Text,
+  Image,
+  View,
+  Animated,
+  BackHandler,
+  StatusBar,
+  TouchableOpacity
+} from "react-native";
+import { connect } from "react-redux";
+
+import AwesomeAlert from "react-native-awesome-alerts";
+import Dimensions from "Dimensions";
+import { Link } from "react-router-native";
+import PTRControl from "react-native-ptr-control";
+import { fetchEvents } from "./src/actions/feed";
+const { width, height } = Dimensions.get("window");
+import SplashScreen from "react-native-splash-screen";
+import styles from "./src/styles/event";
+import { fetchListEvents } from "./src/actions/eventdetails";
+import { destroySession } from "./src/actions";
+import Card from "./src/components/cardview/Card";
+import Moment from "moment";
+import colors from "./src/styles/colors";
+import { Header, Right, Body, Button, Title, Icon } from "native-base";
+
+import ToolbarComponent from "react-native-toolbar-component";
 const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
+  ios: "Press Cmd+R to reload,\n" + "Cmd+D or shake for dev menu",
   android:
-    'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
+    "Double tap R on your keyboard to reload,\n" +
+    "Shake or press menu button for dev menu"
 });
 
 type Props = {};
 
-BackHandler.addEventListener('hardwareBackPress', function() {
-  // this.onMainScreen and this.goBack are just examples, you need to use your own implementation here
-  // Typically you would use the navigator here to go to the last state.
-
-  if (!this.onMainScreen()) {
-    this.goBack();
-    return true;
-  }
-  return false;
-});
- class App extends Component<Props> {
-  static navigationOptions = {
-    headerVisible: true,
-    header: 'Dashboard'
-  }
-  //  state = {
-  //   spinner: false
-  //  };
-
+class App extends Component<Props> {
   constructor(props) {
     super(props);
     this.state = {
-     // isLoading: false
-    }
-    this.id = ''
-    this.eventId = ''
-  
-    
+      showAlert: false
+    };
+    this.id = "";
+    this.eventId = "";
+    this.springValue = new Animated.Value(100);
   }
-  
-  goBack() {
-    this.props.history.goBack()
-  }
- async componentWillMount() {
-   this.props.dispatch(fetchEvents(this.props.user.msg));
-   }
-      
-    onTextPress = (eventId , UsrId) => {
-        this.props.dispatch(fetchListEvents(UsrId,eventId));
+
+  handleBackButton = () => {
+    BackHandler.exitApp();
+    return true;
   };
-  
-     Logout() {
-      Alert.alert(
-        'Ticketing Soft',
-        'Do you really want to Logout?', [{
-            text: 'Cancel',
-            onPress: () => '',
-            style: 'cancel'
-        }, {
-            text: 'OK',
-            onPress: () =>  this.props.dispatch(destroySession())
-        }, ], {
-            cancelable: false
-        }
-     )
-       
-     }
-    
-    render() {
-      
-      Moment.locale('en');
-      
-        return(
-          <View style={styles.container}>
-                      
-     <Header style={styles.backBtn} iosStatusbar='#5b9111' androidStatusBarColor='#5b9111'>
-       <Body  style={{flex: 4, justifyContent: 'center', alignItems: 'center'  }}>
-         <Title>Dashboard</Title>
-       </Body>
-       <Right  style={{ flex: 1 }}>
-         <Button transparent style={styles.logoutBtn} onPress={()=> this.Logout() }>
-           <Icon name='md-log-out' iconSize='30' />
-         </Button>
-       </Right>
-     </Header>
-    
-                 <FlatList 
-               data={this.props.feed}
-          
-               showsVerticalScrollIndicator={false}
-               showsHorizontalScrollIndicator={false}
-               pagingEnabled = {false}
-              
-               renderItem={({item}) =>
-                    <View style={styles.listContainer}>
-                     <View style={styles.dateArea}>
-                     
-                     <Link to={{ pathname: '/eventdetail', state: { eventId: item.eventId} }}><Text style={styles.dateText}>{item.event_title}</Text></Link>
-                     </View>
-                     <View style={styles.listData}>
-                       <View style={styles.listLeft}>
-                       <Text style={styles.symbolText}>{"On "+ Moment(item.event_start_date_time).format('MMM DD,YYYY hh:mm a') + " at " +item.vanue_name.replace(/<(.|\n)*?>/g, '')}</Text>
-                      
-                       </View>
-                       <View style={styles.listRight}>
-                       <View style={styles.listRightText}>
-                         {/* <Text style={styles.statusText}>{item.vanue_name}</Text> */}
-                       
-                       </View>
-                        
-                       </View>                        
-                     </View>
-                    </View>
-                   
-          // </TouchableHighlight>
+  componentDidMount() {
+    // do stuff while splash screen is shown
+    // After having done stuff (such as async tasks) hide the splash screen
+    SplashScreen.hide();
+  }
+  async componentWillMount() {
+    BackHandler.addEventListener("hardwareBackPress", this.handleBackButton);
+    this.props.dispatch(fetchEvents(this.props.user.msg));
+  }
+  componentWillUnmount() {
+    BackHandler.removeEventListener("hardwareBackPress", this.handleBackButton);
+  }
+  onTextPress = (eventId, UsrId) => {
+    this.props.dispatch(fetchListEvents(UsrId, eventId));
+  };
 
-               }
-               keyExtractor={item => item.event_title}
+  Logout() {
+    this.showAlert();
+  }
 
-             />
-       </View>
-     
-        );
-      
-                    
-           
-       
-      }
-      
-}
+  _spring() {
+    this.setState({ backClickCount: 1 }, () => {
+      Animated.sequence([
+        Animated.spring(this.springValue, {
+          toValue: -0.15 * height,
+          friction: 5,
+          duration: 450,
+          useNativeDriver: true
+        }),
+        Animated.timing(this.springValue, {
+          toValue: 100,
+          duration: 450,
+          useNativeDriver: true
+        })
+      ]).start(() => {
+        this.setState({ backClickCount: 0 });
+      });
+    });
+  }
 
-export const mapStateToProps = (state) => {
-  
-  return {
-   
-    user: state.user,
-    feed: state.feed.all_events,
+  handleBackButton = () => {
+    this.state.backClickCount == 1 ? BackHandler.exitApp() : this._spring();
+
+    return true;
+  };
+
+  showAlert = () => {
+    this.setState({
+      showAlert: true
+    });
+  };
+  hideAlert = () => {
+    this.setState({
+      showAlert: false
+    });
+  };
+  ListEmptyView = () => {
+    return (
+      <View style={styles.MainContainer}>
+        <Text style={{ fontSize: 30 }}> Sorry, No Records found.</Text>
+      </View>
+    );
+  };
+
+  render() {
+    Moment.locale("en");
+    const { showAlert } = this.state;
+
+    return (
+      <View style={styles.container}>
+        <StatusBar barStyle="light-content" />
+
+        <Header
+          style={styles.backBtn}
+          iosStatusbar={colors.statusBar}
+          androidStatusBarColor={colors.statusBar}
+        >
+          <Body
+            style={{ flex: 4, justifyContent: "center", alignItems: "center" }}
+          >
+            <Title
+              style={{
+                color: "#FFF",
+             
+              }}
+            >
+              Dashboard
+            </Title>
+          </Body>
+          <Right style={{ flex: 1 }}>
+            <Button
+              transparent
+              style={styles.logoutBtn}
+              onPress={() => this.Logout()}
+            >
+              <Icon
+                name={Platform.OS === "ios" ? "ios-log-out" : "md-log-out"}
+                style={{ color: "rgb(255,255,255)", fontSize: 30 }}
+              />
+            </Button>
+          </Right>
+        </Header>
+
+        <PTRControl
+          showsVerticalScrollIndicator={false}
+          //here is the props of lib provide
+          scrollComponent={"FlatList"}
+          data={this.props.feed}
+          extraData={this.state}
+          showsVerticalScrollIndicator={false}
+          showsHorizontalScrollIndicator={false}
+          pagingEnabled={false}
+          renderItem={({ item }) => (
+            <Link
+              to={{
+                pathname: "/eventdetail",
+                state: { eventId: item.eventId }
+              }}
+            >
+              <View style={styles.listContainer}>
+                {/* <Card>
+                  <CardImage>
+                    <Image
+                      resizeMode="cover"
+                      style={styles.imageStyle}
+                      source={{
+                        uri: "https://getmdl.io/assets/demos/image_card.jpg"
+                      }}
+                    />
+                  </CardImage>
+                  <CardTitle>
+                    <Text style={styles.title}>{item.event_title}</Text>
+                  </CardTitle>
+                  <CardContent>
+                    <Text>
+                      {" "}
+                      {"On " +
+                        Moment(item.event_start_date_time).format(
+                          "MMM DD,YYYY hh:mm a"
+                        )}
+                    </Text>
+                  </CardContent>
+                </Card> */}
+                <Card
+                  imageUrl="https://getmdl.io/assets/demos/image_card.jpg"
+                  title={item.event_title}
+                  date={
+                    "On " +
+                    Moment(item.event_start_date_time).format(
+                      "MMM DD,YYYY hh:mm a"
+                    ) +
+                    " at " +
+                    item.vanue_name.replace(/<(.|\n)*?>/g, "")
+                  }
+                  // date={
+                  //           Moment(item.event_start_date_time).format(
+                  //             "MMM DD,YYYY hh:mm a"
+                  //           )}
+
+                  marked={true}
+                />
+              </View>
+            </Link>
+          )}
+          keyExtractor={item => item.event_title}
+          ListEmptyComponent={this.ListEmptyView}
+        />
+        <AwesomeAlert
+          show={showAlert}
+          showProgress={false}
+          title="Ticketing Soft"
+          message="Do you really want to Logout?"
+          closeOnTouchOutside={true}
+          closeOnHardwareBackPress={false}
+          showCancelButton={true}
+          showConfirmButton={true}
+          cancelText="No, cancel"
+          confirmText="Yes, I want to Logout"
+          confirmButtonColor={colors.purpleTheme}
+          onCancelPressed={() => {
+            this.hideAlert();
+          }}
+          onConfirmPressed={() => {
+            this.props.dispatch(destroySession());
+          }}
+        />
+        <Animated.View
+          style={[
+            styles.animatedView,
+            { transform: [{ translateY: this.springValue }] }
+          ]}
+        >
+          <Text style={styles.exitTitleText}>
+            press back again to exit the app
+          </Text>
+
+          <TouchableOpacity
+            activeOpacity={0.9}
+            onPress={() => BackHandler.exitApp()}
+          >
+            <Text style={styles.exitText}>Exit</Text>
+          </TouchableOpacity>
+        </Animated.View>
+      </View>
+    );
   }
 }
+
+export const mapStateToProps = state => {
+  return {
+    user: state.user,
+    feed: state.feed.all_events
+  };
+};
 
 export default connect(mapStateToProps)(App);

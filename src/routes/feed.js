@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Route, Redirect } from 'react-router-native';
+import { Switch, Route } from 'react-router-native';
 import {
   View
 } from 'react-native';
@@ -7,10 +7,6 @@ import {
 import App from '../../App';
 
 import {connect} from 'react-redux';
-import styles from '../styles/main.js';
-
-
-
 class Authenticated extends Component {
   render() {
     var props = this.props;

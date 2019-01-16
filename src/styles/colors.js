@@ -2,6 +2,8 @@ const colors = {
   highlight: 'rgba(98, 156, 18,1.0)',
   Theme: 'rgba(232, 175, 43,1.0)',
   hero: 'rgba(253, 203, 110,1.0)',
+  purpleTheme: 'rgba(118,89,210,1.0)',
+  statusBar: 'rgba(118,70,216,1.0)',
   dark: {
     background: 'rgb(99, 110, 114)',
     medium: 'rgb(178, 190, 195)',

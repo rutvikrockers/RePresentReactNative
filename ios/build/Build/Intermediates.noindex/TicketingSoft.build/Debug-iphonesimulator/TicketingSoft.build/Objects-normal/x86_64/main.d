@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/ios/TicketingSoft/main.m \
-  /Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/ios/TicketingSoft/AppDelegate.h
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/ios/TicketingSoft/main.m \
+  /Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/ios/TicketingSoft/AppDelegate.h

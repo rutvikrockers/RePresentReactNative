@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/apple/Desktop/RePresentReactNativeApp/TicketingSoft/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml",
+            "outputFile": "/Users/apple/Documents/ReactNativeTicketCheck/TicketingSoft/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5a0c59c9b90b786607fee27f04f0524a/res/values-fi/values.xml",

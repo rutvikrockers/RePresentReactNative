@@ -12,7 +12,10 @@ function updateAttendeeSingle(t) {
 }
 
 export function fetchAttendeeSingle(id,event_id,attendee_id,checkin_status){ 
- 
+   console.log("ID::",id);
+   console.log("EventID::",event_id);
+   console.log("AttendeeID::",attendee_id);
+
   return function (dispatch) {
       return doFetch('POST', `/mobile_logins/update_attendee_single`, {
         id: id,
