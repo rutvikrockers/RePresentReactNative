@@ -18,7 +18,7 @@ export function doFetch(method, path, data, cb){
     payload.body = form_data;
   }
 
-  return fetch("http://mydesichef.com/ticketingsoft_development"+path, payload)
+  return fetch("your base url"+path, payload)
     .then(
       (response) => response.json()
     )
