@@ -9,7 +9,7 @@
   "dependencies": {
     "barcode-reader": "^1.6.1",
     "camelcase-keys": "^5.0.0",
-    "moment": "^2.23.0",
+    "moment": "^2.29.4",
     "native-base": "^2.9.0",
     "react": "16.6.3",
     "react-native": "0.55.4",
